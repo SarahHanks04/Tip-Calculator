@@ -25,7 +25,7 @@ const Select = () => {
           value={percentage}
           placeholder="Custom"
           className="w-full px-3 py-2 border rounded-lg focus:outline-none"
-          onChange={(e) => setPercentage(Number(e.target.value))}
+          onInput={(e) => setPercentage(Number(e.target.value))}
         />
       </div>
     </div>
