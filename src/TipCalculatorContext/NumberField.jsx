@@ -6,13 +6,14 @@ const NumberField = () => {
 
   return (
     <div className="mb-4 text-left">
-      <label className="text-white font-semibold mb-2">
+      <label className="text-gray-600 font-semibold mb-2">
         Number of People
       </label>
       <input
         type="number"
+        min={0}
         value={number}
-        className="w-full px-3 py-2 border rounded-lg focus:outline-none focus:ring focus:border-blue-300"
+        className="bg-emerald-50 w-full px-3 py-2 border rounded-lg focus:outline-none"
         onInput={(e) => setNumber(Number(e.target.value))}
       />
       {number === 0 && <p className="text-red-500 text-sm">Can't be zero</p>}

@@ -7,9 +7,9 @@
   text-align: center;
 }
 
-.button:hover {
+/* .button:hover {
   background-color: #26c0ab;
-}
+} */
 
 .grid {
   display: grid;

@@ -7,12 +7,12 @@ const InputField = () => {
 
   return (
     <div className="input mb-4 text-left">
-      <label htmlFor="bill" className="text-white font-semibold mb-2">Bill</label>
+      <label htmlFor="bill" className="text-gray-600 font-semibold">Bill</label>
       <input
         type="number"
         value={bill}
         placeholder="$"
-        className="w-full px-3 rounded-lg"
+        className="w-full mt-3 p-3 rounded-lg focus:outline-none bg-emerald-50"
         onInput={(e) => setBill(Number(e.target.value))}
       />
     </div>

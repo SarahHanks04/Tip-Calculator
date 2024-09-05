@@ -14,7 +14,7 @@ function App() {
         {/* TEST 5 */}
         <CalculatorProvider>
           <div className="container">
-            <div className=" bg-gray-100 shadow-lg rounded-lg p-6 max-w-[400px]">
+            <div className="shadow-lg rounded-lg p-6 max-w-[400px]">
               <MainCalculator />
             </div>
             <div className="max-w-[400px] ml-8">
