@@ -16,17 +16,17 @@
   font-size: 2rem;
   font-weight: bold;
 }
+
 .reset {
-    background-color: #26c0ab;
-    color: white;
-    font-size: 1rem;
-    padding: 10px;
-    border-radius: 8px;
-    width: 100%;
-    text-align: center;
-  }
-  
-  .reset:hover {
-    background-color: #9fe8df;
-  }
-  
+  background-color: #26c0ab;
+  color: white;
+  font-size: 1rem;
+  padding: 10px;
+  border-radius: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.reset:hover {
+  background-color: #9fe8df;
+}

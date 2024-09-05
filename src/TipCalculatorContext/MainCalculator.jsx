@@ -6,7 +6,7 @@ import "./Styles/main.css"
 
 const MainCalculator = () => {
   return (
-    <div className="main max-w-[400px] p-8">
+    <div className="main max-w-[400px] p-8 md:max-w-[50%]">
       <InputField />
       <Select />
       <NumberField />
