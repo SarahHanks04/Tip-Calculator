@@ -17,16 +17,14 @@ const TotalField = () => {
         </div>
         <div className="flex gap-8 mt-6">
           <div>
-          <p className="block text-sm font-semibold">Total</p>
-          <span className="text-sm">/ person</span>
+            <p className="block text-sm font-semibold">Total</p>
+            <span className="text-sm">/ person</span>
           </div>
-          <p className="text-xl">
-            ${totalAmount.toFixed(2)}
-          </p>
+          <p className="text-xl">${totalAmount.toFixed(2)}</p>
         </div>
       </div>
       <button
-      onClick={reset}
+        onClick={reset}
         className="w-full bg-teal-500 hover:bg-teal-700 text-white font-bold py-2 px-4 rounded-lg mt-4"
       >
         RESET
