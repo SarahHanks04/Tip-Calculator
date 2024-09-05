@@ -1,5 +1,6 @@
 import React, { useContext } from "react";
 import { CalculatorContext } from "./CalculatorContext";
+import "./Styles/Select.css"
 
 const Select = () => {
   const { percentage, setPercentage } = useContext(CalculatorContext);
@@ -7,14 +8,14 @@ const Select = () => {
 
   return (
     <div className="mb-4 text-left">
-      <label className="text-white text-left font-semibold mb-2">
+      <label className="text-gray-600 text-left font-semibold mb-2">
         Select Tip %
       </label>
       <div className="grid grid-cols-3 gap-2">
         {tips.map((index) => (
           <button
             key={index}
-            className="bg-teal-500 text-white font-bold py-2 px-4 rounded-lg hover:bg-pink-500"
+            className="button bg-teal-500 text-white font-bold py-2 px-4 rounded-lg hover:bg-pink-500"
             onClick={() => setPercentage(index)}
           >
             {index}%

@@ -1,0 +1,18 @@
+.button {
+  background-color: #00494d;
+  color: white;
+  font-size: 1.1rem;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.button:hover {
+  background-color: #26c0ab;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
