@@ -10,14 +10,14 @@ const TotalField = () => {
       <div className="mb-8">
         <div className="flex gap-8">
           <div>
-            <label className="block text-sm font-semibold">Tip Amount</label>
+            <p className="block text-sm font-semibold">Tip Amount</p>
             <span className="text-sm">/ person</span>
           </div>
           <p className="text-xl">${amount.toFixed(2)}</p>
         </div>
         <div className="flex gap-8 mt-6">
           <div>
-          <label className="block text-sm font-semibold">Total</label>
+          <p className="block text-sm font-semibold">Total</p>
           <span className="text-sm">/ person</span>
           </div>
           <p className="text-xl">
