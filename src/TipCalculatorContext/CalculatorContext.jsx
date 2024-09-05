@@ -31,6 +31,8 @@ const CalculatorProvider = ({ children }) => {
     setPercentage("");
     setNumber("");
   };
+
+  
   const value = {
     bill,
     setBill,
