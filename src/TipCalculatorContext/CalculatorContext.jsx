@@ -7,7 +7,7 @@ const CalculatorProvider = ({ children }) => {
   const [percentage, setPercentage] = useState("");
   const [number, setNumber] = useState("");
 
-  const sumUpAmount = () => {
+  function sumUpAmount () {
     let amount, totalAmount;
 
     if (number > 0) {
