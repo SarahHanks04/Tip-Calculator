@@ -26,7 +26,7 @@ const TotalField = () => {
       </div>
       <button
         onClick={reset}
-        className="reset w-full bg-teal-500 hover:bg-teal-700 text-white font-bold py-2 px-4 rounded-lg mt-[8rem] my-auto"
+        className="reset w-full bg-teal-500 hover:bg-teal-700 text-white font-bold py-2 px-4 rounded-lg mt-[5rem]"
       >
         RESET
       </button>
