@@ -6,3 +6,8 @@
   color: #ccc;
 }
 
+@media (max-width: 768px) {
+  .input {
+    font-size: 14px;
+  }
+}

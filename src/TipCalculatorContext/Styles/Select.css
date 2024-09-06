@@ -6,6 +6,9 @@
   border-radius: 10px;
   text-align: center;
 }
+::placeholder {
+  font-size: 13px;
+}
 
 /* .button:hover {
   background-color: #26c0ab;
@@ -15,4 +18,11 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 10px;
+}
+.button {
+  @apply bg-teal-500 text-white font-bold py-2 px-4 rounded-lg;
+}
+
+.button:hover {
+  @apply bg-pink-500;
 }

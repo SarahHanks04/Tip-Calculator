@@ -1,8 +1,9 @@
 .total {
+  width: 400px;
   background-color: #00494d;
   color: #fff;
   border-radius: 12px;
-  padding: 20px;
+  padding: 30px;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
 }
 

@@ -8,10 +8,10 @@ const Select = () => {
 
   return (
     <div className="mb-4 text-left">
-      <label className="text-gray-600 text-left font-semibold mb-2">
+      <label className="text-gray-600 text-left font-semibold mt-2">
         Select Tip %
       </label>
-      <div className="grid grid-cols-3 gap-2">
+      <div className="grid grid-cols-3 gap-2 mt-4">
         {tips.map((index) => (
           <button
             key={index}

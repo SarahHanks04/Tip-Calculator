@@ -12,7 +12,7 @@ const InputField = () => {
         type="number"
         value={bill}
         placeholder="$"
-        className="w-full mt-3 p-3 rounded-lg focus:outline-none bg-emerald-50"
+        className="w-full my-3 p-3 rounded-lg focus:outline-none bg-emerald-50"
         onInput={(e) => setBill(Number(e.target.value))}
       />
     </div>

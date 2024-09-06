@@ -17,7 +17,7 @@ function App() {
             <div className=" rounded-lg p-6 max-w-[400px]">
               <MainCalculator />
             </div>
-            <div className="max-w-[400px]">
+            <div className="max-w-[600px]">
               <TotalField />
             </div>
           </div>

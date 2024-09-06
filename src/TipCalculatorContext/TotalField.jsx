@@ -7,7 +7,7 @@ const TotalField = () => {
   const { amount, totalAmount } = sumUpAmount();
 
   return (
-    <div className="total bg-[#00494d] text-white p-4 rounded-lg">
+    <div className="total bg-[#00494d] text-white rounded-lg">
       <div className="mb-8 text">
         <div className="flex gap-8">
           <div>
