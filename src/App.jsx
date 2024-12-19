@@ -29,8 +29,9 @@
 
 // export default App;
 import React, { useContext } from "react";
+import { FormContext } from "./FormProvider";
 import EditableForm from "./EditableForm";
-import { FormContext } from "../Context/FormContext";
+
 
 const App = () => {
   const { isAdmin, setIsAdmin } = useContext(FormContext);
